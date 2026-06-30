@@ -1,0 +1,74 @@
+canonical_identifier: bkk:krp/KR4d0400/v1
+canonical_location: https://kanripo.org/bkk/KR4d0400/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 西湖百詠
+  date: '2015-08-25 00:07:37.086700'
+  source:
+    repository: kanripo
+    path: KR4d0400
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4d0400_000.yaml, hash: 'sha256:5a7927ebad0f4d664f43cac834fe2597f6c2b29401c600ee533a42b5917749c3'}
+  - {seq: 1, filename: KR4d0400_001.yaml, hash: 'sha256:1f72d909e04bcfde94d2669b84048e4e6fc7d9838eddb63f0e6cb2c8a85ca07e'}
+  - {seq: 2, filename: KR4d0400_002.yaml, hash: 'sha256:dd458e77db4d557c8607ee430edacabf5d911aaf3290721e6ebf5c2e8112c56f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4d0400_000.markers.yaml, hash: 'sha256:0dac39716b87b5e6741f861c456d9ce05cde4d7ecde789292a233028d38f02b9'}
+  - {seq: 1, role: markers, filename: assets/KR4d0400_001.markers.yaml, hash: 'sha256:636e6e462bc98174eda73e912c3915db0c8e3b3cf658914d434cd3cb88cafdca'}
+  - {seq: 2, role: markers, filename: assets/KR4d0400_002.markers.yaml, hash: 'sha256:b05ee1e4cc4a4fa5eedeb8dddae5ee4d764e28f4056cdd7c1c7068a931050782'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4d0400_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 690
+  label: 目録
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4d0400_WYG_000-9a
+    span:
+    - body
+    - 690
+    - 948
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4d0400_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8263
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4d0400_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 8457
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:8fba8ccb16aa5bb2b3aa3a129b6d1d95284a4f699e1295b40d54d255e86389a1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
